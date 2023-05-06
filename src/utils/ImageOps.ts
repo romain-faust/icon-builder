@@ -74,7 +74,7 @@ export async function createAppIcon({
 
 // twemoji.maxcdn.com
 export function twitterEmoji(id: string): string {
-  return `https://twemoji.maxcdn.com/v/latest/svg/${id}.svg`;
+  return `http://localhost:8000/${id}`;
 }
 
 function imageUriToBase64(imageUri: string): string {
