@@ -50,7 +50,7 @@ const CustomDarkTheme: Theme = {
 };
 
 export default function App({}) {
-  const [theme, setTheme] = React.useState(CustomLightTheme);
+  const [theme, setTheme] = React.useState(CustomDarkTheme);
   const ref = React.useRef(null);
 
   return (
